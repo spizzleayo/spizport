@@ -919,6 +919,11 @@ body {
   color: #858585;
 }
 
+.work--lockup .slider--item-creation {
+  font-size: 15px;
+  font-weight: 50;
+}
+
 .work--lockup .slider--item-title {
   margin-top: 10px;
   font-size: 12px;
