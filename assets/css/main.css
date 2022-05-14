@@ -1121,7 +1121,7 @@ body {
   background-color: #0f33ff;
 }
 
-.about--banner h2 {
+.about--banner h3 {
   position: relative;
   margin-top: 35px;
   font-size: 68px;
@@ -1130,7 +1130,7 @@ body {
   z-index: 1;
 }
 
-.about--banner h2::before {
+.about--banner h3::before {
   content: "";
   position: absolute;
   top: 60px;
@@ -1141,7 +1141,7 @@ body {
   border-radius: 50%;
 }
 
-.about--banner h2::after {
+.about--banner h3::after {
   content: "";
   position: absolute;
   top: 255px;
@@ -1200,7 +1200,7 @@ body {
   bottom: -38px;
   left: 10px;
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: none;
   -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
   transition: bottom .2s ease-in-out, left .2s ease-in-out;
 }
@@ -1217,15 +1217,15 @@ body {
     top: 35px;
     left: 260px;
   }
-  .about--banner h2 {
+  .about--banner h3 {
     margin-top: 10px;
     font-size: 44px;
   }
-  .about--banner h2::before {
+  .about--banner h3::before {
     top: 28px;
     left: 168px;
   }
-  .about--banner h2::after {
+  .about--banner h3::after {
     top: 163px;
     left: 163px;
   }
@@ -1244,15 +1244,15 @@ body {
   .about--banner::after {
     left: 310px;
   }
-  .about--banner h2 {
+  .about--banner h3 {
     margin-top: 0;
-    font-size: 55px;
+    font-size: 35px;
   }
-  .about--banner h2::before {
+  .about--banner h3::before {
     top: 43px;
     left: 214px;
   }
-  .about--banner h2::after {
+  .about--banner h3::after {
     top: 205px;
     left: 205px;
   }
