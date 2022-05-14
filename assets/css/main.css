@@ -1121,16 +1121,16 @@ body {
   background-color: #0f33ff;
 }
 
-.about--banner h3 {
+.about--banner h2 {
   position: relative;
-  margin-top: 15px;
-  font-size: 20px;
-  font-weight: 400;
+  margin-top: 35px;
+  font-size: 68px;
+  font-weight: 900;
   line-height: 1;
   z-index: 1;
 }
 
-.about--banner h3::before {
+.about--banner h2::before {
   content: "";
   position: absolute;
   top: 60px;
@@ -1141,7 +1141,7 @@ body {
   border-radius: 50%;
 }
 
-.about--banner h3::after {
+.about--banner h2::after {
   content: "";
   position: absolute;
   top: 255px;
@@ -1224,7 +1224,7 @@ body {
   position: absolute;
   bottom: -38px;
   left: 10px;
-  font-size: 10px;
+  font-size: 16px;
   text-transform: uppercase;
   -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
   transition: bottom .2s ease-in-out, left .2s ease-in-out;
