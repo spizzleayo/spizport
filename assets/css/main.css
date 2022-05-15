@@ -1197,7 +1197,7 @@ body {
   }
   .about--banner h3 {
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 16px;
   }
   .about--banner h3::before {
     top: 28px;
@@ -1224,7 +1224,7 @@ body {
   }
   .about--banner h3 {
     margin-top: 5px;
-    font-size: 9px;
+    font-size: 13px;
   }
   .about--banner h3::before {
     top: 43px;
