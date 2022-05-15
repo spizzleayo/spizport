@@ -1196,7 +1196,7 @@ body {
     left: 260px;
   }
   .about--banner h3 {
-    margin-top: 3px;
+    margin-top: 0;
     font-size: 20px;
   }
   .about--banner h3::before {
