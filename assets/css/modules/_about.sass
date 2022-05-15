@@ -38,7 +38,7 @@
     h3
       position: relative
       margin-top: 10px
-      font-size: 68px
+      font-size: 20px
       font-weight: 700
       line-height: 1
       z-index: 1
@@ -71,6 +71,7 @@
       background-color: transparent
 
       &:hover
+        background: blue
         svg
           left: 10px
 
@@ -86,31 +87,7 @@
       bottom: -90px
       right: -12px
 
-    & > a
-      position: relative
-      width: 150px
-      height: 75px
-      text-decoration: none
-      color: $white
-      border: 10px solid $highlight
-      background:
-        position: center
-        size: cover
-        repeat: no-repeat
-
-
-      &:hover
-        h3
-          bottom: -50px
-
-    h3
-      position: absolute
-      bottom: -38px
-      left: 10px
-      margin-top: 25px
-      font-size: 16px
-      text-transform: none
-      transition: bottom .2s ease-in-out, left .2s ease-in-out
+    
 
 @media (max-width: 767px)
 
@@ -129,7 +106,7 @@
 
       h3
         margin-top: 10px
-        font-size: 34px
+        font-size: 13px
 
         &::before
           top: 28px
@@ -157,7 +134,7 @@
 
       h3
         margin-top: 5px
-        font-size: 25px
+        font-size: 9px
 
         &::before
           top: 43px
