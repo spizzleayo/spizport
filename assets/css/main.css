@@ -1223,8 +1223,8 @@ body {
     left: 310px;
   }
   .about--banner h3 {
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 25pxx;
+    font-size: 10px;
   }
   .about--banner h3::before {
     top: 43px;
